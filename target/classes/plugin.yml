@@ -1,0 +1,5 @@
+name: TelegramControl
+version: 1.0
+main: com.victor.telegramcontrol.Main
+api-version: 1.21
+author: Victor
