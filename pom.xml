@@ -23,11 +23,12 @@
     <dependencies>
         <!-- Bukkit -->
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.21.1-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
+    <groupId>org.spigotmc</groupId>
+    <artifactId>spigot-api</artifactId>
+    <version>1.21.1-R0.1</version>
+    <scope>provided</scope>
+</dependency>
+
 
         <!-- JSON LIBRARY (this is what you were missing) -->
         <dependency>
