@@ -84,6 +84,9 @@ public class TelegramBot {
         try {
             msg = msg.replace(" ", "%20");
             new URL("https://api.telegram.org/bot" + token + "/sendMessage?chat_id=" + chatId + "&text=" + msg).openStream().close();
-        } catch (Exception ignored) {}
+        } catch (Exception e) {
+    e.printStackTrace();
+}
+
     }
 }
